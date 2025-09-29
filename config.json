@@ -1,0 +1,4 @@
+{
+  "version_file": "Cargo.toml",
+  "version_param": "package.version"
+}
