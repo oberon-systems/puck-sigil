@@ -10,6 +10,14 @@ readme = "README.md"
 keywords = ["version", "config", "git"]
 categories = ["tools"]
 
+include = [
+    "/Cargo.toml",
+    "/Cargo.lock",
+    "/README.md",
+    "/LICENSE",
+    "src/**/*",
+]
+
 [[bin]]
 name = "psigil"
 path = "src/main.rs"
